@@ -1,10 +1,9 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import heroBg from '../assets/bg-hero.jpg';
 
 export default function Hero() {
-  const { ref, inView } = useInView({
+  const { ref,} = useInView({
     triggerOnce: false, 
     threshold: 0.1,
   });
@@ -23,6 +22,4 @@ export default function Hero() {
   );
 }
 
-const textShadowStyle = {
-  textShadow: '4px 4px 4px rgba(0, 0, 0, 0.9)', // Adiciona uma sombra para destacar o texto
-};
+
