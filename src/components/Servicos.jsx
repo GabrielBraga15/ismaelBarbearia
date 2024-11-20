@@ -35,9 +35,12 @@ export default function Servicos() {
   };
 
   const servicos = [
-    { nome: "Corte e barba (Segunda a Quarta)", preco: "R$ 59,99", imagem: corteBarbaImg },
-    { nome: "Corte e selagem (Segunda a Quarta)", preco: "R$ 59,99", imagem: corteSelagem },
-    { nome: "Corte", preco: "R$ 35,00", imagem: corte },
+    { nome: "Corte e barba (Terça a Quinta)", preco: "R$ 59,99", imagem: corteBarbaImg },
+    { nome: "Corte e barba (Sexta a Sábado)", preco: "R$ 79,99", imagem: corteBarbaImg },
+    { nome: "Corte e selagem (Terça a Quinta)", preco: "R$ 59,99", imagem: corteSelagem },
+    { nome: "Corte e selagem (Sexta a Sábado)", preco: "R$ 79,99", imagem: corteSelagem },
+    { nome: "Corte (Terça a Quinta)", preco: "R$ 40,00", imagem: corte },
+    { nome: "Corte (Sexta a Sábado)", preco: "R$ 50,00", imagem: corte },
     { nome: "Barba", preco: "R$ 35,00", imagem: barba },
     { nome: "Sobrancelha", preco: "R$ 10,00", imagem: sobrancelha },
     { nome: "Higienização completa", preco: "R$ 20,00", imagem: higienizacao },
